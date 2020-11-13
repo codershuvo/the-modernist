@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Georgia";
+    src: url("fonts/Georgia\ Regular\ font.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Georgia";
+    src: url("fonts/georgia\ bold.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Georgia";
+    src: url("fonts/georgia\ italic.ttf") format("ttf");
+    font-style: italic, oblique;
+}
+@font-face {
+    font-family: "Georgia";
+    src: url("fonts/georgia\ bold\ italic.ttf") format("ttf");
+    font-weight: bold;
+    font-style: italic, oblique;
+}
+
+body {
+    font-family: "Georgia";
+    transition: 0.3s all ease;
+}
+
+.bg-color {
+    
+}

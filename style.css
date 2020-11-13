@@ -23,6 +23,149 @@ body {
     transition: 0.3s all ease;
 }
 
-.bg-color {
-    
+#header {
+    border-top: 5px solid #76c38f;
+    background-color: #290000;
+    padding-top: 40px;
+}
+.navbar-brand {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#myDIV li a {
+    font-size: 13px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 13px 20px;
+}
+
+#navbarNav ul li {
+    padding:0 5px;
+}
+.navbar-nav .active {
+    background-color: #76c38f;
+    border-radius: 11px;
+}
+
+.carousel-item h1 {
+    font-size: 46px;
+    line-height: 46px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.carousel-item p {
+    font-size: 12px;
+    line-height: 19px;
+    color: #979797;
+}
+.carousel-item img {
+    width: 380px;
+    height: 380px;
+    border: 15px solid #6b6b6b;
+    border-radius: 50%;
+}
+#slider {
+    background-color: #290000;
+}
+
+.btn-highlight {
+    border-radius: 11px;
+    background-color: #76c38f;
+    font-size: 13px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.carousel-control-next-icon {
+    background-image: url("images/slider/right-algin.png");
+}
+
+.carousel-control-prev-icon {
+    background-image: url("images/slider/left-align.png");    
+}
+
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#service, #latest-work {
+    background-color: #660000;
+}
+
+.service h2 {
+    color: #333333;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.service p {
+    font-size: 12px;
+    line-height: 17px;
+    color: #979797;
+}
+
+.service {
+    background-color: #ffffff;
+    width: 225px;
+    text-align: center;
+}
+
+.service a {
+    font-size: 120px;
+    background-color: #333333;
+    color: #000000;
+}
+
+.service:hover {
+    background-color: #76c38f;
+}
+.service:hover h2 {
+    color: #ffffff;
+}
+.service:hover p {
+    color: #ffffff;
+}
+.service:hover a {
+    background-color: #ffffff;
+}
+
+.latest-work h2{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center; 
+    overflow: hidden;
+}
+.latest-work h2 span{
+    background-color: #303030;
+    padding: 12px 15px;
+    display: inline-block;
+    border-radius: 11px;
+    font-weight: bold;
+}
+
+.latest-work h2:before,
+.latest-work h2:after {
+  background-color: #303030;
+  content: "";
+  display: inline-block;
+  height: 3px;
+  position: relative;
+  vertical-align: middle;
+  width: 35%;
+}
+
+.latest-work h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.latest-work h1:after {
+  left: 0.5em;
+  margin-right: -50%;
 }

@@ -135,37 +135,177 @@ body {
     background-color: #ffffff;
 }
 
-.latest-work h2{
+.latest-work h2 {
+    overflow: hidden;
+    text-align: center;
+    font-size: 32px;
     color: #ffffff;
     text-transform: uppercase;
-    text-align: center; 
-    overflow: hidden;
 }
-.latest-work h2 span{
+.latest-work span {
     background-color: #303030;
-    padding: 12px 15px;
-    display: inline-block;
+    padding: 10px 20px;
     border-radius: 11px;
-    font-weight: bold;
+    display: inline-block;
 }
+
 
 .latest-work h2:before,
 .latest-work h2:after {
-  background-color: #303030;
-  content: "";
-  display: inline-block;
-  height: 3px;
-  position: relative;
-  vertical-align: middle;
-  width: 35%;
+    background-color: #303030;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
 }
 
-.latest-work h1:before {
-  right: 0.5em;
-  margin-left: -50%;
+.latest-work h2:before {
+    margin-left: -50%;
 }
 
-.latest-work h1:after {
-  left: 0.5em;
-  margin-right: -50%;
+.latest-work h2:after {
+    margin-right: -50%;
 }
+
+.latest-work .img-box {
+    width: 290px;
+    height: 190px;
+    background-color: #353535;
+    border: 10px solid #ffffff;
+}
+
+.latest-work .img-box:hover {
+    border: 10px solid #76c38f;
+    cursor: pointer;
+}
+
+.latest-work .img-box:hover h4 {
+    display: none;
+}
+
+.latest-work h4 {
+    background-color: #000000;
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 0em;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+}
+
+
+.contact {
+    background-color: #303030;
+    border-bottom: 1px solid #000000;
+}
+
+.foot h6 {
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.foot p {
+    font-size: 13px;
+    line-height: 21px;
+    color: #979797;
+}
+
+.about-us img {
+    width: 215px;
+    height: 90px;
+}
+
+.img-thumbnail {
+    background-color: #1a1a1a;
+    border: 1px solid #555555;
+}
+
+.read-more {
+    font-size: 13px;
+    line-height: 16px;
+    color: #76c38f;
+}
+
+.quick-links ul li {
+    border-bottom: 1px solid #404040;
+    padding-left: 20px;
+}
+
+.quick-links ul li a {
+    font-size: 13px;
+    line-height: 34px;
+    color: #76c38f;
+}
+
+.quick-links  ul {
+	position: relative;
+	list-style: none;
+    margin-left: 0;
+}
+.quick-links  ul li:before {
+	content: ">>";
+	position: absolute;
+    left: 0;
+    color: #979797;
+    font-size: 10px;
+    padding-top: 7px;
+}
+
+.latest-blog-post p {
+    font-size: 13px;
+    line-height: 21px;
+    color: #979797;
+}
+
+.latest-blog-post p span {
+    color: #76c38f;
+}
+
+.foot input, textarea.form-control {
+    margin-bottom: 12px;
+    background-color: #222222;
+    border: none;
+    border-radius: 11px;
+}
+.foot input:focus {
+    background-color: #76c38f;
+}
+.foot input [placeholder]{
+    font-size: 13px;
+    line-height: 16px;
+    color: #989898;
+}
+
+
+.footer-bg {
+    background-color: #2b2b2b;
+    border-top: 1px solid #3A3A3A;
+}
+
+.footer p {
+    font-size: 13px;
+    line-height: 12px;
+    color: #979797;
+    margin-bottom: 0rem;
+}
+
+
+.about-us h5 {
+    font-size: 13px;
+    line-height: 16px;
+    color: #76c38f;
+}
+
+.about-us small {
+    font-size: 10px;
+    line-height: 12px;
+    color: #666666;
+}
+.about-us small span {
+    color: #76c38f;
+}
+

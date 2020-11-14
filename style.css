@@ -132,6 +132,7 @@ body {
 
 .service:hover {
     background-color: #76c38f;
+    cursor: pointer;
 }
 .service:hover h2 {
     color: #ffffff;
